@@ -2,6 +2,8 @@
 
 **STATUS: APPROVED (Nov 13, 2026, 8:39 AM CT). Keyed layers work only with a key the user pastes, never in the APK. Nominatim: 1 request/sec, OSM attribution, story place names only.**
 
+The Sentinel-1 / Sentinel-2 scene catalog built from the approved public STAC APIs is documented in [imagery-catalog.md](imagery-catalog.md) and written under `data/imagery/`. Those JSON files are catalogue metadata only.
+
 Index of proposed free geospatial / satellite sources for the OBSIDIAN feed vault. These notes are vault documentation only. Nothing here is wired into the app. Do not add any of these to `Feeds.kt` until the source is approved.
 
 Verification: Verified 2026-11-13 ~07:35 America/Chicago from official docs/usage-policy pages (public, unauthenticated reads only). No API keys were used and no authenticated calls were made.

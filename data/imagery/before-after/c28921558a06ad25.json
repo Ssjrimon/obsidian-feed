@@ -1,0 +1,69 @@
+{
+  "schema": "obsidian-imagery-before-after-v1",
+  "eventId": "c28921558a06ad25",
+  "trendId": "t019-05",
+  "relatedFeedIds": [
+    "d40215120166dd71"
+  ],
+  "title": "Houthi forces tighten the siege of Taiz, Yemen",
+  "label": "Confirmed",
+  "eventTimeUtc": "2026-10-18T00:00:00Z",
+  "place": {
+    "name": "Taiz (Taizz), Yemen",
+    "region": "RED SEA",
+    "lat": 13.579,
+    "lon": 44.022,
+    "bbox": [
+      43.95,
+      13.52,
+      44.09,
+      13.64
+    ]
+  },
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "catalog": "earth-search",
+  "collection": "sentinel-2-c1-l2a",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "selection": {
+    "before": "latest scene with cloud cover at or under 20%",
+    "after": "latest scene with cloud cover at or under 20%",
+    "cloudCoverPreferencePct": 20.0
+  },
+  "before": {
+    "sceneId": "S2C_T38PLV_20261016T074024_L2A",
+    "date": "2026-10-16",
+    "acquisitionTimeUtc": "2026-10-16T07:46:13Z",
+    "cloudCoverPct": 0.2612,
+    "platform": "sentinel-2c",
+    "mgrsTile": "MGRS-38PLV",
+    "footprintBbox": [
+      43.151737,
+      12.569251,
+      44.169624,
+      13.56705
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2C_T38PLV_20261016T074024_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2C_T38PLV_20261016T074024_L2A/thumbnail"
+  },
+  "after": {
+    "sceneId": "S2B_T38PLA_20261110T073820_L2A",
+    "date": "2026-11-10",
+    "acquisitionTimeUtc": "2026-11-10T07:45:58Z",
+    "cloudCoverPct": 19.7698,
+    "platform": "sentinel-2b",
+    "mgrsTile": "MGRS-38PLA",
+    "footprintBbox": [
+      43.144489,
+      13.473231,
+      44.166605,
+      14.471332
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2B_T38PLA_20261110T073820_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2B_T38PLA_20261110T073820_L2A/thumbnail"
+  }
+}

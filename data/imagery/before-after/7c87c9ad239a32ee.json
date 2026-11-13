@@ -1,0 +1,70 @@
+{
+  "schema": "obsidian-imagery-before-after-v1",
+  "eventId": "7c87c9ad239a32ee",
+  "trendId": "t019-06",
+  "relatedFeedIds": [
+    "3ee7bbecae4ab828",
+    "54414d74aa25a198"
+  ],
+  "title": "Ukrainian drone hits a Russian warship in the Gulf of Finland",
+  "label": "Confirmed",
+  "eventTimeUtc": "2026-11-11T03:30:00Z",
+  "place": {
+    "name": "Gulf of Finland, near Gogland Island",
+    "region": "EUROPE",
+    "lat": 60.058,
+    "lon": 26.993,
+    "bbox": [
+      26.7,
+      59.9,
+      27.3,
+      60.2
+    ]
+  },
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "catalog": "earth-search",
+  "collection": "sentinel-2-c1-l2a",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "selection": {
+    "before": "latest scene with cloud cover at or under 20%",
+    "after": "only scenes above 80% cloud cover in window; latest kept as a catalogue lead, not a clear view",
+    "cloudCoverPreferencePct": 20.0
+  },
+  "before": {
+    "sceneId": "S2A_T35VNG_20261106T094115_L2A",
+    "date": "2026-11-06",
+    "acquisitionTimeUtc": "2026-11-06T09:43:51Z",
+    "cloudCoverPct": 19.7793,
+    "platform": "sentinel-2a",
+    "mgrsTile": "MGRS-35VNG",
+    "footprintBbox": [
+      26.999655,
+      59.436195,
+      28.993774,
+      60.436448
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T35VNG_20261106T094115_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T35VNG_20261106T094115_L2A/thumbnail"
+  },
+  "after": {
+    "sceneId": "S2A_T35VMG_20261113T093145_L2A",
+    "date": "2026-11-13",
+    "acquisitionTimeUtc": "2026-11-13T09:33:57Z",
+    "cloudCoverPct": 92.0631,
+    "platform": "sentinel-2a",
+    "mgrsTile": "MGRS-35VMG",
+    "footprintBbox": [
+      26.006544,
+      59.446757,
+      27.177303,
+      60.43633
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T35VMG_20261113T093145_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T35VMG_20261113T093145_L2A/thumbnail"
+  }
+}

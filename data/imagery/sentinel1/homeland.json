@@ -1,0 +1,158 @@
+{
+  "schema": "obsidian-imagery-sentinel1-v1",
+  "region": "HOMELAND",
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "purpose": "infrastructure and disaster change-detection leads only",
+  "catalog": "earth-search",
+  "collection": "sentinel-1-grd",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "aois": [
+    {
+      "id": "homeland-US-38.90--77.00",
+      "kind": "feed-watch-point",
+      "label": "Feed watch point US",
+      "lat": 38.9,
+      "lon": -77.0,
+      "bbox": [
+        -77.25,
+        38.65,
+        -76.75,
+        39.15
+      ],
+      "eventId": null
+    }
+  ],
+  "passCount": 4,
+  "pairedPassCount": 3,
+  "passes": [
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261109T225823_20261109T225848_005397_00A4B6",
+      "acquisitionTimeUtc": "2026-11-09T22:58:36Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 106,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        -77.157057,
+        38.7791044,
+        -73.9263719,
+        40.6719821
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261109T225823_20261109T225848_005397_00A4B6",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261109T225823_20261109T225848_005397_00A4B6/thumbnail",
+      "aoiIds": [
+        "homeland-US-38.90--77.00"
+      ]
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261102T230633_20261102T230658_005295_00A130",
+      "acquisitionTimeUtc": "2026-11-02T23:06:46Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 4,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        -79.1522671,
+        38.5654449,
+        -75.9394651,
+        40.4576988
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261102T230633_20261102T230658_005295_00A130",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261102T230633_20261102T230658_005295_00A130/thumbnail",
+      "aoiIds": [
+        "homeland-US-38.90--77.00"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261021T230634_20261021T230659_005120_009B33",
+        "acquisitionTimeUtc": "2026-10-21T23:06:46Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 4,
+        "footprintBbox": [
+          -79.1516695,
+          38.5655169,
+          -75.938429,
+          40.4577818
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T230634_20261021T230659_005120_009B33",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T230634_20261021T230659_005120_009B33/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261021T230634_20261021T230659_005120_009B33",
+      "acquisitionTimeUtc": "2026-10-21T23:06:46Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 4,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        -79.1516695,
+        38.5655169,
+        -75.938429,
+        40.4577818
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T230634_20261021T230659_005120_009B33",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T230634_20261021T230659_005120_009B33/thumbnail",
+      "aoiIds": [
+        "homeland-US-38.90--77.00"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261009T230634_20261009T230659_004945_00952C",
+        "acquisitionTimeUtc": "2026-10-09T23:06:46Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 4,
+        "footprintBbox": [
+          -79.1502373,
+          38.5650683,
+          -75.9373412,
+          40.4577974
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261009T230634_20261009T230659_004945_00952C",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261009T230634_20261009T230659_004945_00952C/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261016T225824_20261016T225849_005047_0098AC",
+      "acquisitionTimeUtc": "2026-10-16T22:58:36Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 106,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        -77.1585428,
+        38.7791427,
+        -73.9283084,
+        40.6720028
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261016T225824_20261016T225849_005047_0098AC",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261016T225824_20261016T225849_005047_0098AC/thumbnail",
+      "aoiIds": [
+        "homeland-US-38.90--77.00"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261004T225824_20261004T225849_004872_009297",
+        "acquisitionTimeUtc": "2026-10-04T22:58:36Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 106,
+        "footprintBbox": [
+          -77.1585793,
+          38.7787171,
+          -73.9274904,
+          40.6720056
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261004T225824_20261004T225849_004872_009297",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261004T225824_20261004T225849_004872_009297/thumbnail",
+        "daysEarlier": 12.0
+      }
+    }
+  ]
+}

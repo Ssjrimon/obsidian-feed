@@ -1,0 +1,70 @@
+{
+  "schema": "obsidian-imagery-before-after-v1",
+  "eventId": "0034dd6a83af6560",
+  "trendId": "t019-01",
+  "relatedFeedIds": [
+    "33e823f244855f31",
+    "b49f0d78d90bebd5"
+  ],
+  "title": "Winter storm floods Gaza displacement camps",
+  "label": "Confirmed",
+  "eventTimeUtc": "2026-11-06T16:00:00Z",
+  "place": {
+    "name": "Gaza Strip (Deir al-Balah, Gaza City, Khan Younis)",
+    "region": "ISR-GAZA",
+    "lat": 31.417,
+    "lon": 34.352,
+    "bbox": [
+      34.22,
+      31.22,
+      34.57,
+      31.59
+    ]
+  },
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "catalog": "earth-search",
+  "collection": "sentinel-2-c1-l2a",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "selection": {
+    "before": "latest scene with cloud cover at or under 20%",
+    "after": "latest scene with cloud cover at or under 20%",
+    "cloudCoverPreferencePct": 20.0
+  },
+  "before": {
+    "sceneId": "S2A_T36RXV_20261102T082747_L2A",
+    "date": "2026-11-02",
+    "acquisitionTimeUtc": "2026-11-02T08:31:37Z",
+    "cloudCoverPct": 0.5477,
+    "platform": "sentinel-2a",
+    "mgrsTile": "MGRS-36RXV",
+    "footprintBbox": [
+      34.043582,
+      30.626399,
+      35.211735,
+      31.631184
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T36RXV_20261102T082747_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T36RXV_20261102T082747_L2A/thumbnail"
+  },
+  "after": {
+    "sceneId": "S2A_T36RXV_20261112T082112_L2A",
+    "date": "2026-11-12",
+    "acquisitionTimeUtc": "2026-11-12T08:31:36Z",
+    "cloudCoverPct": 0.0075,
+    "platform": "sentinel-2a",
+    "mgrsTile": "MGRS-36RXV",
+    "footprintBbox": [
+      34.043582,
+      30.626399,
+      35.211735,
+      31.631184
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T36RXV_20261112T082112_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T36RXV_20261112T082112_L2A/thumbnail"
+  }
+}

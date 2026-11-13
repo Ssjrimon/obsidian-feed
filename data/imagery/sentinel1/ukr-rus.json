@@ -1,0 +1,2017 @@
+{
+  "schema": "obsidian-imagery-sentinel1-v1",
+  "region": "UKR-RUS",
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "purpose": "infrastructure and disaster change-detection leads only",
+  "catalog": "earth-search",
+  "collection": "sentinel-1-grd",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "aois": [
+    {
+      "id": "ukr-rus-RU-55.75-37.60",
+      "kind": "feed-watch-point",
+      "label": "Feed watch point RU",
+      "lat": 55.75,
+      "lon": 37.6,
+      "bbox": [
+        37.35,
+        55.5,
+        37.85,
+        56.0
+      ],
+      "eventId": null
+    },
+    {
+      "id": "ukr-rus-UA-48.40-31.20",
+      "kind": "feed-watch-point",
+      "label": "Feed watch point UA",
+      "lat": 48.4,
+      "lon": 31.2,
+      "bbox": [
+        30.95,
+        48.15,
+        31.45,
+        48.65
+      ],
+      "eventId": null
+    },
+    {
+      "id": "confirmed-t019-03",
+      "kind": "confirmed-event-place",
+      "label": "Zaporizhzhia, Ukraine (Kosmichnyi district)",
+      "lat": 47.839,
+      "lon": 35.14,
+      "bbox": [
+        35.05,
+        47.76,
+        35.24,
+        47.92
+      ],
+      "eventId": "1056ac62ed5eeedc"
+    },
+    {
+      "id": "confirmed-t019-04",
+      "kind": "confirmed-event-place",
+      "label": "National Institute of Traumatology and Orthopedics, Shevchenkivskyi, Kyiv",
+      "lat": 50.454,
+      "lon": 30.505,
+      "bbox": [
+        30.45,
+        50.42,
+        30.56,
+        50.49
+      ],
+      "eventId": "b90f4c650f0d016b"
+    },
+    {
+      "id": "confirmed-t019-06",
+      "kind": "confirmed-event-place",
+      "label": "Gulf of Finland, near Gogland Island",
+      "lat": 60.058,
+      "lon": 26.993,
+      "bbox": [
+        26.7,
+        59.9,
+        27.3,
+        60.2
+      ],
+      "eventId": "7c87c9ad239a32ee"
+    }
+  ],
+  "passCount": 56,
+  "pairedPassCount": 52,
+  "passes": [
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261113T044135_20261113T044200_005444_00A652",
+      "acquisitionTimeUtc": "2026-11-13T04:41:48Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 153,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        22.4389871,
+        58.7603859,
+        27.3895169,
+        60.6624565
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261113T044135_20261113T044200_005444_00A652",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261113T044135_20261113T044200_005444_00A652/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261101T044135_20261101T044200_005269_00A04F",
+        "acquisitionTimeUtc": "2026-11-01T04:41:48Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 153,
+        "footprintBbox": [
+          22.4409601,
+          58.7601879,
+          27.3915386,
+          60.6622772
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261101T044135_20261101T044200_005269_00A04F",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261101T044135_20261101T044200_005269_00A04F/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261113T035259_20261113T035328_010313_01498C",
+      "acquisitionTimeUtc": "2026-11-13T03:53:14Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 65,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.7104815,
+        54.9716343,
+        38.2538712,
+        56.997441
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261113T035259_20261113T035328_010313_01498C",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261113T035259_20261113T035328_010313_01498C/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03",
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261101T035259_20261101T035329_010138_0143C2",
+        "acquisitionTimeUtc": "2026-11-01T03:53:14Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 65,
+        "footprintBbox": [
+          33.7104818,
+          54.9713311,
+          38.2542961,
+          56.998258
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261101T035259_20261101T035329_010138_0143C2",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261101T035259_20261101T035329_010138_0143C2/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261112T040347_20261112T040412_005429_00A5C9",
+      "acquisitionTimeUtc": "2026-11-12T04:04:00Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 138,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.6659938,
+        46.7857509,
+        33.3603438,
+        48.6719326
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261112T040347_20261112T040412_005429_00A5C9",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261112T040347_20261112T040412_005429_00A5C9/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261031T040347_20261031T040412_005254_009FBF",
+        "acquisitionTimeUtc": "2026-10-31T04:04:00Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 138,
+        "footprintBbox": [
+          29.6675204,
+          46.7851919,
+          33.3613683,
+          48.6718926
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261031T040347_20261031T040412_005254_009FBF",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261031T040347_20261031T040412_005254_009FBF/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261111T152139_20261111T152204_010291_0148D0",
+      "acquisitionTimeUtc": "2026-11-11T15:21:51Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 43,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.4375949,
+        54.164512,
+        37.7812821,
+        56.0545014
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261111T152139_20261111T152204_010291_0148D0",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261111T152139_20261111T152204_010291_0148D0/thumbnail",
+      "aoiIds": [
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261030T152139_20261030T152204_010116_01430D",
+        "acquisitionTimeUtc": "2026-10-30T15:21:52Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 43,
+        "footprintBbox": [
+          33.4376691,
+          54.164615,
+          37.7812697,
+          56.0545667
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261030T152139_20261030T152204_010116_01430D",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261030T152139_20261030T152204_010116_01430D/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261111T041129_20261111T041154_010284_014898",
+      "acquisitionTimeUtc": "2026-11-11T04:11:42Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 36,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        27.8631569,
+        47.9075953,
+        31.6389047,
+        49.793632
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261111T041129_20261111T041154_010284_014898",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261111T041129_20261111T041154_010284_014898/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261030T041129_20261030T041154_010109_0142D7",
+        "acquisitionTimeUtc": "2026-10-30T04:11:42Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 36,
+        "footprintBbox": [
+          27.8620341,
+          47.9068674,
+          31.6377272,
+          49.7934016
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261030T041129_20261030T041154_010109_0142D7",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261030T041129_20261030T041154_010109_0142D7/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261110T152816_20261110T152841_005407_00A50F",
+      "acquisitionTimeUtc": "2026-11-10T15:28:28Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 116,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.5681821,
+        47.5909789,
+        37.3218291,
+        49.4776508
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261110T152816_20261110T152841_005407_00A50F",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261110T152816_20261110T152841_005407_00A50F/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ]
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261109T153559_20261109T153624_010262_0147E7",
+      "acquisitionTimeUtc": "2026-11-09T15:36:12Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        31.8150004,
+        46.5720681,
+        35.4929736,
+        48.4584811
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261109T153559_20261109T153624_010262_0147E7",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261109T153559_20261109T153624_010262_0147E7/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261028T153557_20261028T153622_010087_014227",
+        "acquisitionTimeUtc": "2026-10-28T15:36:09Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          31.8694657,
+          46.3856099,
+          35.5340178,
+          48.2725566
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T153557_20261028T153622_010087_014227",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T153557_20261028T153622_010087_014227/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261109T042445_20261109T042510_010255_0147B1",
+      "acquisitionTimeUtc": "2026-11-09T04:24:57Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 7,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        26.7293239,
+        59.350186,
+        31.7692232,
+        61.2538418
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261109T042445_20261109T042510_010255_0147B1",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261109T042445_20261109T042510_010255_0147B1/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261028T042445_20261028T042510_010080_0141F0",
+        "acquisitionTimeUtc": "2026-10-28T04:24:58Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 7,
+        "footprintBbox": [
+          26.7277127,
+          59.3501746,
+          31.7667852,
+          61.2537783
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T042445_20261028T042510_010080_0141F0",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T042445_20261028T042510_010080_0141F0/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261108T154436_20261108T154501_005378_00A410",
+      "acquisitionTimeUtc": "2026-11-08T15:44:48Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 87,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.595482,
+        47.133142,
+        33.3112441,
+        49.0192399
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261108T154436_20261108T154501_005378_00A410",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261108T154436_20261108T154501_005378_00A410/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "confirmed-t019-06",
+        "ukr-rus-UA-48.40-31.20"
+      ]
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261108T043307_20261108T043332_005371_00A3DA",
+      "acquisitionTimeUtc": "2026-11-08T04:33:20Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 80,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        24.7583216,
+        59.6336365,
+        29.8427595,
+        61.5391719
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261108T043307_20261108T043332_005371_00A3DA",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261108T043307_20261108T043332_005371_00A3DA/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ]
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261108T034704_20261108T034729_010240_014738",
+      "acquisitionTimeUtc": "2026-11-08T03:47:16Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 167,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.821082,
+        46.9563623,
+        37.5262295,
+        48.8426285
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261108T034704_20261108T034729_010240_014738",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261108T034704_20261108T034729_010240_014738/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261027T034704_20261027T034729_010065_014172",
+        "acquisitionTimeUtc": "2026-10-27T03:47:17Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 167,
+        "footprintBbox": [
+          33.8205262,
+          46.9563575,
+          37.5256367,
+          48.842605
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261027T034704_20261027T034729_010065_014172",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261027T034704_20261027T034729_010065_014172/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261107T155557_20261107T155622_010233_0146FC",
+      "acquisitionTimeUtc": "2026-11-07T15:56:10Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 160,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        23.1577771,
+        59.133976,
+        28.1620235,
+        61.0367534
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261107T155557_20261107T155622_010233_0146FC",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261107T155557_20261107T155622_010233_0146FC/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "confirmed-t019-06",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261026T155557_20261026T155622_010058_014135",
+        "acquisitionTimeUtc": "2026-10-26T15:56:10Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 160,
+        "footprintBbox": [
+          23.159605,
+          59.133482,
+          28.1632326,
+          61.0368272
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261026T155557_20261026T155622_010058_014135",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261026T155557_20261026T155622_010058_014135/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261107T044122_20261107T044147_010226_0146C0",
+      "acquisitionTimeUtc": "2026-11-07T04:41:35Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 153,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        22.4403025,
+        58.7599383,
+        27.3901482,
+        60.6624761
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261107T044122_20261107T044147_010226_0146C0",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261107T044122_20261107T044147_010226_0146C0/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261026T044122_20261026T044147_010051_0140F7",
+        "acquisitionTimeUtc": "2026-10-26T04:41:35Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 153,
+        "footprintBbox": [
+          22.439908,
+          58.7603069,
+          27.3903435,
+          60.6623412
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261026T044122_20261026T044147_010051_0140F7",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261026T044122_20261026T044147_010051_0140F7/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261107T035313_20261107T035342_005356_00A34D",
+      "acquisitionTimeUtc": "2026-11-07T03:53:27Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 65,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.7096281,
+        54.9715169,
+        38.253342,
+        56.9983991
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261107T035313_20261107T035342_005356_00A34D",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261107T035313_20261107T035342_005356_00A34D/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03",
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261026T035313_20261026T035342_005181_009D52",
+        "acquisitionTimeUtc": "2026-10-26T03:53:27Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 65,
+        "footprintBbox": [
+          33.7085568,
+          54.9717706,
+          38.2515405,
+          56.9979953
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261026T035313_20261026T035342_005181_009D52",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261026T035313_20261026T035342_005181_009D52/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261106T040334_20261106T040359_010211_01463B",
+      "acquisitionTimeUtc": "2026-11-06T04:03:47Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 138,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.6663588,
+        46.7857302,
+        33.3606997,
+        48.6719073
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261106T040334_20261106T040359_010211_01463B",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261106T040334_20261106T040359_010211_01463B/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261025T040334_20261025T040359_010036_014075",
+        "acquisitionTimeUtc": "2026-10-25T04:03:47Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 138,
+        "footprintBbox": [
+          29.6693342,
+          46.785712,
+          33.3626316,
+          48.6718805
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261025T040334_20261025T040359_010036_014075",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261025T040334_20261025T040359_010036_014075/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261105T152152_20261105T152217_005334_00A27F",
+      "acquisitionTimeUtc": "2026-11-05T15:22:05Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 43,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.4373516,
+        54.1644952,
+        37.7815212,
+        56.0544673
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261105T152152_20261105T152217_005334_00A27F",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261105T152152_20261105T152217_005334_00A27F/thumbnail",
+      "aoiIds": [
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261024T152153_20261024T152218_005159_009C85",
+        "acquisitionTimeUtc": "2026-10-24T15:22:05Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 43,
+        "footprintBbox": [
+          33.4382513,
+          54.1646226,
+          37.781922,
+          56.0540829
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261024T152153_20261024T152218_005159_009C85",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261024T152153_20261024T152218_005159_009C85/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261105T041143_20261105T041208_005327_00A243",
+      "acquisitionTimeUtc": "2026-11-05T04:11:55Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 36,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        27.8631744,
+        47.9074959,
+        31.638913,
+        49.793528
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261105T041143_20261105T041208_005327_00A243",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261105T041143_20261105T041208_005327_00A243/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261024T041143_20261024T041208_005152_009C48",
+        "acquisitionTimeUtc": "2026-10-24T04:11:55Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 36,
+        "footprintBbox": [
+          27.8615168,
+          47.9069871,
+          31.6382525,
+          49.7935177
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261024T041143_20261024T041208_005152_009C48",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261024T041143_20261024T041208_005152_009C48/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261104T152803_20261104T152828_010189_014573",
+      "acquisitionTimeUtc": "2026-11-04T15:28:15Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 116,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.5673522,
+        47.5914748,
+        37.3210115,
+        49.4776839
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261104T152803_20261104T152828_010189_014573",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261104T152803_20261104T152828_010189_014573/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261023T152803_20261023T152828_010014_013FAF",
+        "acquisitionTimeUtc": "2026-10-23T15:28:15Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 116,
+        "footprintBbox": [
+          33.5711824,
+          47.5914757,
+          37.324826,
+          49.4776769
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261023T152803_20261023T152828_010014_013FAF",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261023T152803_20261023T152828_010014_013FAF/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261103T153610_20261103T153635_005305_00A18A",
+      "acquisitionTimeUtc": "2026-11-03T15:36:22Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        31.8674307,
+        46.3855697,
+        35.5328883,
+        48.2725076
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261103T153610_20261103T153635_005305_00A18A",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261103T153610_20261103T153635_005305_00A18A/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261022T153610_20261022T153635_005130_009B8C",
+        "acquisitionTimeUtc": "2026-10-22T15:36:22Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          31.8685965,
+          46.385535,
+          35.5336159,
+          48.2724848
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T153610_20261022T153635_005130_009B8C",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T153610_20261022T153635_005130_009B8C/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261103T042458_20261103T042523_005298_00A14D",
+      "acquisitionTimeUtc": "2026-11-03T04:25:11Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 7,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        26.7307416,
+        59.3499828,
+        31.7706689,
+        61.2536492
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261103T042458_20261103T042523_005298_00A14D",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261103T042458_20261103T042523_005298_00A14D/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261022T042458_20261022T042523_005123_009B50",
+        "acquisitionTimeUtc": "2026-10-22T04:25:11Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 7,
+        "footprintBbox": [
+          26.7300693,
+          59.349995,
+          31.7692558,
+          61.2536418
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T042458_20261022T042523_005123_009B50",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T042458_20261022T042523_005123_009B50/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261102T154420_20261102T154445_010160_014476",
+      "acquisitionTimeUtc": "2026-11-02T15:44:32Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 87,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.650262,
+        46.9466881,
+        33.3491187,
+        48.8330911
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261102T154420_20261102T154445_010160_014476",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261102T154420_20261102T154445_010160_014476/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "confirmed-t019-06",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261021T154420_20261021T154445_009985_013EA7",
+        "acquisitionTimeUtc": "2026-10-21T15:44:33Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 87,
+        "footprintBbox": [
+          29.6496804,
+          46.9470399,
+          33.34765,
+          48.8329997
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T154420_20261021T154445_009985_013EA7",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T154420_20261021T154445_009985_013EA7/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261102T043254_20261102T043319_010153_014440",
+      "acquisitionTimeUtc": "2026-11-02T04:33:07Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 80,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        24.7601636,
+        59.633454,
+        29.844632,
+        61.5390008
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261102T043254_20261102T043319_010153_014440",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261102T043254_20261102T043319_010153_014440/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261021T043254_20261021T043319_009978_013E60",
+        "acquisitionTimeUtc": "2026-10-21T04:33:07Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 80,
+        "footprintBbox": [
+          24.7597238,
+          59.6334375,
+          29.8441246,
+          61.5389589
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T043254_20261021T043319_009978_013E60",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T043254_20261021T043319_009978_013E60/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261102T034717_20261102T034742_005283_00A0CB",
+      "acquisitionTimeUtc": "2026-11-02T03:47:30Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 167,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.821623,
+        46.9563277,
+        37.5267954,
+        48.8426066
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261102T034717_20261102T034742_005283_00A0CB",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261102T034717_20261102T034742_005283_00A0CB/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261021T034717_20261021T034742_005108_009AC7",
+        "acquisitionTimeUtc": "2026-10-21T03:47:30Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 167,
+        "footprintBbox": [
+          33.8217755,
+          46.9563153,
+          37.526409,
+          48.8425818
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T034717_20261021T034742_005108_009AC7",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T034717_20261021T034742_005108_009AC7/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261101T155245_20261101T155310_005276_00A08A",
+      "acquisitionTimeUtc": "2026-11-01T15:52:57Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 160,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        27.6169545,
+        46.8461362,
+        31.3139364,
+        48.7327117
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261101T155245_20261101T155310_005276_00A08A",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261101T155245_20261101T155310_005276_00A08A/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "confirmed-t019-06",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261020T155245_20261020T155310_005101_009A82",
+        "acquisitionTimeUtc": "2026-10-20T15:52:57Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 160,
+        "footprintBbox": [
+          27.6180659,
+          46.8462393,
+          31.3141127,
+          48.7328115
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261020T155245_20261020T155310_005101_009A82",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261020T155245_20261020T155310_005101_009A82/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261101T044135_20261101T044200_005269_00A04F",
+      "acquisitionTimeUtc": "2026-11-01T04:41:48Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 153,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        22.4409601,
+        58.7601879,
+        27.3915386,
+        60.6622772
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261101T044135_20261101T044200_005269_00A04F",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261101T044135_20261101T044200_005269_00A04F/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261020T044136_20261020T044201_005094_009A43",
+        "acquisitionTimeUtc": "2026-10-20T04:41:48Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 153,
+        "footprintBbox": [
+          22.4403986,
+          58.7602125,
+          27.3901822,
+          60.6622566
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261020T044136_20261020T044201_005094_009A43",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261020T044136_20261020T044201_005094_009A43/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261101T035259_20261101T035329_010138_0143C2",
+      "acquisitionTimeUtc": "2026-11-01T03:53:14Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 65,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.7104818,
+        54.9713311,
+        38.2542961,
+        56.998258
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261101T035259_20261101T035329_010138_0143C2",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261101T035259_20261101T035329_010138_0143C2/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03",
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261020T035300_20261020T035329_009963_013DD1",
+        "acquisitionTimeUtc": "2026-10-20T03:53:14Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 65,
+        "footprintBbox": [
+          33.710152,
+          54.9712827,
+          38.2533586,
+          56.9976068
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261020T035300_20261020T035329_009963_013DD1",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261020T035300_20261020T035329_009963_013DD1/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261031T040347_20261031T040412_005254_009FBF",
+      "acquisitionTimeUtc": "2026-10-31T04:04:00Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 138,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.6675204,
+        46.7851919,
+        33.3613683,
+        48.6718926
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261031T040347_20261031T040412_005254_009FBF",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261031T040347_20261031T040412_005254_009FBF/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261019T040348_20261019T040413_005079_0099C4",
+        "acquisitionTimeUtc": "2026-10-19T04:04:00Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 138,
+        "footprintBbox": [
+          29.6670413,
+          46.7852073,
+          33.3608268,
+          48.6718761
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261019T040348_20261019T040413_005079_0099C4",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261019T040348_20261019T040413_005079_0099C4/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261030T152139_20261030T152204_010116_01430D",
+      "acquisitionTimeUtc": "2026-10-30T15:21:52Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 43,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.4376691,
+        54.164615,
+        37.7812697,
+        56.0545667
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261030T152139_20261030T152204_010116_01430D",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261030T152139_20261030T152204_010116_01430D/thumbnail",
+      "aoiIds": [
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261018T152139_20261018T152204_009941_013D19",
+        "acquisitionTimeUtc": "2026-10-18T15:21:52Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 43,
+        "footprintBbox": [
+          33.4367157,
+          54.1640781,
+          37.7803179,
+          56.0545525
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261018T152139_20261018T152204_009941_013D19",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261018T152139_20261018T152204_009941_013D19/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261030T041129_20261030T041154_010109_0142D7",
+      "acquisitionTimeUtc": "2026-10-30T04:11:42Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 36,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        27.8620341,
+        47.9068674,
+        31.6377272,
+        49.7934016
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261030T041129_20261030T041154_010109_0142D7",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261030T041129_20261030T041154_010109_0142D7/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261018T041130_20261018T041155_009934_013CDF",
+        "acquisitionTimeUtc": "2026-10-18T04:11:42Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 36,
+        "footprintBbox": [
+          27.8631906,
+          47.90741,
+          31.638367,
+          49.7934234
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261018T041130_20261018T041155_009934_013CDF",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261018T041130_20261018T041155_009934_013CDF/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261028T153557_20261028T153622_010087_014227",
+      "acquisitionTimeUtc": "2026-10-28T15:36:09Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        31.8694657,
+        46.3856099,
+        35.5340178,
+        48.2725566
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T153557_20261028T153622_010087_014227",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T153557_20261028T153622_010087_014227/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261016T153557_20261016T153622_009912_013C2D",
+        "acquisitionTimeUtc": "2026-10-16T15:36:09Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          31.8688475,
+          46.3855876,
+          35.5338527,
+          48.2725301
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T153557_20261016T153622_009912_013C2D",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T153557_20261016T153622_009912_013C2D/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261028T042445_20261028T042510_010080_0141F0",
+      "acquisitionTimeUtc": "2026-10-28T04:24:58Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 7,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        26.7277127,
+        59.3501746,
+        31.7667852,
+        61.2537783
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T042445_20261028T042510_010080_0141F0",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T042445_20261028T042510_010080_0141F0/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261016T042445_20261016T042510_009905_013BFC",
+        "acquisitionTimeUtc": "2026-10-16T04:24:58Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 7,
+        "footprintBbox": [
+          26.7293411,
+          59.3493864,
+          31.7691191,
+          61.2536853
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T042445_20261016T042510_009905_013BFC",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T042445_20261016T042510_009905_013BFC/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261027T034704_20261027T034729_010065_014172",
+      "acquisitionTimeUtc": "2026-10-27T03:47:17Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 167,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.8205262,
+        46.9563575,
+        37.5256367,
+        48.842605
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261027T034704_20261027T034729_010065_014172",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261027T034704_20261027T034729_010065_014172/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261015T034704_20261015T034729_009890_013B84",
+        "acquisitionTimeUtc": "2026-10-15T03:47:17Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 167,
+        "footprintBbox": [
+          33.8214554,
+          46.9565694,
+          37.526047,
+          48.8425527
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261015T034704_20261015T034729_009890_013B84",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261015T034704_20261015T034729_009890_013B84/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261026T155557_20261026T155622_010058_014135",
+      "acquisitionTimeUtc": "2026-10-26T15:56:10Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 160,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        23.159605,
+        59.133482,
+        28.1632326,
+        61.0368272
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261026T155557_20261026T155622_010058_014135",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261026T155557_20261026T155622_010058_014135/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "confirmed-t019-06",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261014T155558_20261014T155623_009883_013B47",
+        "acquisitionTimeUtc": "2026-10-14T15:56:10Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 160,
+        "footprintBbox": [
+          23.1589104,
+          59.1337053,
+          28.1619363,
+          61.037043
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261014T155558_20261014T155623_009883_013B47",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261014T155558_20261014T155623_009883_013B47/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261026T044122_20261026T044147_010051_0140F7",
+      "acquisitionTimeUtc": "2026-10-26T04:41:35Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 153,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        22.439908,
+        58.7603069,
+        27.3903435,
+        60.6623412
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261026T044122_20261026T044147_010051_0140F7",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261026T044122_20261026T044147_010051_0140F7/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261014T044123_20261014T044148_009876_013B09",
+        "acquisitionTimeUtc": "2026-10-14T04:41:35Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 153,
+        "footprintBbox": [
+          22.4393702,
+          58.7601921,
+          27.3891153,
+          60.6622214
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261014T044123_20261014T044148_009876_013B09",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261014T044123_20261014T044148_009876_013B09/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261026T035313_20261026T035342_005181_009D52",
+      "acquisitionTimeUtc": "2026-10-26T03:53:27Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 65,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.7085568,
+        54.9717706,
+        38.2515405,
+        56.9979953
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261026T035313_20261026T035342_005181_009D52",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261026T035313_20261026T035342_005181_009D52/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03",
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261014T035313_20261014T035342_005006_009751",
+        "acquisitionTimeUtc": "2026-10-14T03:53:27Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 65,
+        "footprintBbox": [
+          33.710043,
+          54.9717279,
+          38.2530353,
+          56.9985553
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261014T035313_20261014T035342_005006_009751",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261014T035313_20261014T035342_005006_009751/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261025T040334_20261025T040359_010036_014075",
+      "acquisitionTimeUtc": "2026-10-25T04:03:47Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 138,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.6693342,
+        46.785712,
+        33.3626316,
+        48.6718805
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261025T040334_20261025T040359_010036_014075",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261025T040334_20261025T040359_010036_014075/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261013T040335_20261013T040400_009861_013A87",
+        "acquisitionTimeUtc": "2026-10-13T04:03:47Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 138,
+        "footprintBbox": [
+          29.6663133,
+          46.7852472,
+          33.3600678,
+          48.6719002
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261013T040335_20261013T040400_009861_013A87",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261013T040335_20261013T040400_009861_013A87/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261024T152153_20261024T152218_005159_009C85",
+      "acquisitionTimeUtc": "2026-10-24T15:22:05Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 43,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.4382513,
+        54.1646226,
+        37.781922,
+        56.0540829
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261024T152153_20261024T152218_005159_009C85",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261024T152153_20261024T152218_005159_009C85/thumbnail",
+      "aoiIds": [
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261012T152153_20261012T152218_004984_009689",
+        "acquisitionTimeUtc": "2026-10-12T15:22:05Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 43,
+        "footprintBbox": [
+          33.4390225,
+          54.1645777,
+          37.7826645,
+          56.0545474
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261012T152153_20261012T152218_004984_009689",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261012T152153_20261012T152218_004984_009689/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261024T041143_20261024T041208_005152_009C48",
+      "acquisitionTimeUtc": "2026-10-24T04:11:55Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 36,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        27.8615168,
+        47.9069871,
+        31.6382525,
+        49.7935177
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261024T041143_20261024T041208_005152_009C48",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261024T041143_20261024T041208_005152_009C48/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261012T041143_20261012T041208_004977_00964D",
+        "acquisitionTimeUtc": "2026-10-12T04:11:55Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 36,
+        "footprintBbox": [
+          27.8616959,
+          47.9069225,
+          31.6379038,
+          49.7934517
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261012T041143_20261012T041208_004977_00964D",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261012T041143_20261012T041208_004977_00964D/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261023T152803_20261023T152828_010014_013FAF",
+      "acquisitionTimeUtc": "2026-10-23T15:28:15Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 116,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.5711824,
+        47.5914757,
+        37.324826,
+        49.4776769
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261023T152803_20261023T152828_010014_013FAF",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261023T152803_20261023T152828_010014_013FAF/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261011T152803_20261011T152828_009839_0139B1",
+        "acquisitionTimeUtc": "2026-10-11T15:28:16Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 116,
+        "footprintBbox": [
+          33.5689138,
+          47.591495,
+          37.3225533,
+          49.4776942
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261011T152803_20261011T152828_009839_0139B1",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261011T152803_20261011T152828_009839_0139B1/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261022T153610_20261022T153635_005130_009B8C",
+      "acquisitionTimeUtc": "2026-10-22T15:36:22Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        31.8685965,
+        46.385535,
+        35.5336159,
+        48.2724848
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T153610_20261022T153635_005130_009B8C",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T153610_20261022T153635_005130_009B8C/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ]
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261022T042458_20261022T042523_005123_009B50",
+      "acquisitionTimeUtc": "2026-10-22T04:25:11Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 7,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        26.7300693,
+        59.349995,
+        31.7692558,
+        61.2536418
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T042458_20261022T042523_005123_009B50",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T042458_20261022T042523_005123_009B50/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261010T042459_20261010T042524_004948_00954B",
+        "acquisitionTimeUtc": "2026-10-10T04:25:11Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 7,
+        "footprintBbox": [
+          26.7283952,
+          59.350077,
+          31.7674789,
+          61.2536849
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261010T042459_20261010T042524_004948_00954B",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261010T042459_20261010T042524_004948_00954B/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261021T154420_20261021T154445_009985_013EA7",
+      "acquisitionTimeUtc": "2026-10-21T15:44:33Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 87,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.6496804,
+        46.9470399,
+        33.34765,
+        48.8329997
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T154420_20261021T154445_009985_013EA7",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T154420_20261021T154445_009985_013EA7/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "confirmed-t019-06",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261009T154420_20261009T154445_009810_0138A8",
+        "acquisitionTimeUtc": "2026-10-09T15:44:33Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 87,
+        "footprintBbox": [
+          29.65299,
+          46.9471904,
+          33.3509669,
+          48.833154
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261009T154420_20261009T154445_009810_0138A8",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261009T154420_20261009T154445_009810_0138A8/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261021T043254_20261021T043319_009978_013E60",
+      "acquisitionTimeUtc": "2026-10-21T04:33:07Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 80,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        24.7597238,
+        59.6334375,
+        29.8441246,
+        61.5389589
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T043254_20261021T043319_009978_013E60",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T043254_20261021T043319_009978_013E60/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261009T043254_20261009T043319_009803_013871",
+        "acquisitionTimeUtc": "2026-10-09T04:33:07Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 80,
+        "footprintBbox": [
+          24.7583665,
+          59.6335388,
+          29.8426479,
+          61.5390155
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261009T043254_20261009T043319_009803_013871",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261009T043254_20261009T043319_009803_013871/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261021T034717_20261021T034742_005108_009AC7",
+      "acquisitionTimeUtc": "2026-10-21T03:47:30Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 167,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.8217755,
+        46.9563153,
+        37.526409,
+        48.8425818
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T034717_20261021T034742_005108_009AC7",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T034717_20261021T034742_005108_009AC7/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261009T034718_20261009T034743_004933_0094C1",
+        "acquisitionTimeUtc": "2026-10-09T03:47:30Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 167,
+        "footprintBbox": [
+          33.8202801,
+          46.956385,
+          37.5253893,
+          48.8426318
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261009T034718_20261009T034743_004933_0094C1",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261009T034718_20261009T034743_004933_0094C1/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261020T155245_20261020T155310_005101_009A82",
+      "acquisitionTimeUtc": "2026-10-20T15:52:57Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 160,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        27.6180659,
+        46.8462393,
+        31.3141127,
+        48.7328115
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261020T155245_20261020T155310_005101_009A82",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261020T155245_20261020T155310_005101_009A82/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "confirmed-t019-06",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261008T155245_20261008T155310_004926_00947F",
+        "acquisitionTimeUtc": "2026-10-08T15:52:58Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 160,
+        "footprintBbox": [
+          27.6191776,
+          46.8466974,
+          31.3156598,
+          48.7327904
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261008T155245_20261008T155310_004926_00947F",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261008T155245_20261008T155310_004926_00947F/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261020T044136_20261020T044201_005094_009A43",
+      "acquisitionTimeUtc": "2026-10-20T04:41:48Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 153,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        22.4403986,
+        58.7602125,
+        27.3901822,
+        60.6622566
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261020T044136_20261020T044201_005094_009A43",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261020T044136_20261020T044201_005094_009A43/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261008T044136_20261008T044201_004919_00943F",
+        "acquisitionTimeUtc": "2026-10-08T04:41:48Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 153,
+        "footprintBbox": [
+          22.4388659,
+          58.7601671,
+          27.3893176,
+          60.6622077
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261008T044136_20261008T044201_004919_00943F",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261008T044136_20261008T044201_004919_00943F/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261020T035300_20261020T035329_009963_013DD1",
+      "acquisitionTimeUtc": "2026-10-20T03:53:14Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 65,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.710152,
+        54.9712827,
+        38.2533586,
+        56.9976068
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261020T035300_20261020T035329_009963_013DD1",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261020T035300_20261020T035329_009963_013DD1/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03",
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261008T035300_20261008T035329_009788_0137EE",
+        "acquisitionTimeUtc": "2026-10-08T03:53:15Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 65,
+        "footprintBbox": [
+          33.7093082,
+          54.9714462,
+          38.2523859,
+          56.9977128
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261008T035300_20261008T035329_009788_0137EE",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261008T035300_20261008T035329_009788_0137EE/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261019T040348_20261019T040413_005079_0099C4",
+      "acquisitionTimeUtc": "2026-10-19T04:04:00Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 138,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.6670413,
+        46.7852073,
+        33.3608268,
+        48.6718761
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261019T040348_20261019T040413_005079_0099C4",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261019T040348_20261019T040413_005079_0099C4/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261007T040348_20261007T040413_004904_0093B1",
+        "acquisitionTimeUtc": "2026-10-07T04:04:00Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 138,
+        "footprintBbox": [
+          29.6664762,
+          46.7852252,
+          33.3602457,
+          48.6718859
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261007T040348_20261007T040413_004904_0093B1",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261007T040348_20261007T040413_004904_0093B1/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261018T152139_20261018T152204_009941_013D19",
+      "acquisitionTimeUtc": "2026-10-18T15:21:52Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 43,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.4367157,
+        54.1640781,
+        37.7803179,
+        56.0545525
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261018T152139_20261018T152204_009941_013D19",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261018T152139_20261018T152204_009941_013D19/thumbnail",
+      "aoiIds": [
+        "ukr-rus-RU-55.75-37.60"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261006T152140_20261006T152205_009766_013739",
+        "acquisitionTimeUtc": "2026-10-06T15:21:52Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 43,
+        "footprintBbox": [
+          33.4373209,
+          54.1647573,
+          37.7808982,
+          56.0546988
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261006T152140_20261006T152205_009766_013739",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261006T152140_20261006T152205_009766_013739/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261018T041130_20261018T041155_009934_013CDF",
+      "acquisitionTimeUtc": "2026-10-18T04:11:42Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 36,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        27.8631906,
+        47.90741,
+        31.638367,
+        49.7934234
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261018T041130_20261018T041155_009934_013CDF",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261018T041130_20261018T041155_009934_013CDF/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261006T041130_20261006T041155_009759_0136FF",
+        "acquisitionTimeUtc": "2026-10-06T04:11:43Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 36,
+        "footprintBbox": [
+          27.8610302,
+          47.9067589,
+          31.6377138,
+          49.7932635
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261006T041130_20261006T041155_009759_0136FF",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261006T041130_20261006T041155_009759_0136FF/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261017T152816_20261017T152841_005057_009904",
+      "acquisitionTimeUtc": "2026-10-17T15:28:29Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 116,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.5666391,
+        47.5910566,
+        37.3197322,
+        49.4776858
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261017T152816_20261017T152841_005057_009904",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261017T152816_20261017T152841_005057_009904/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261005T152816_20261005T152841_004882_0092EF",
+        "acquisitionTimeUtc": "2026-10-05T15:28:29Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 116,
+        "footprintBbox": [
+          33.5664383,
+          47.5910684,
+          37.3200072,
+          49.477701
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261005T152816_20261005T152841_004882_0092EF",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261005T152816_20261005T152841_004882_0092EF/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261016T153557_20261016T153622_009912_013C2D",
+      "acquisitionTimeUtc": "2026-10-16T15:36:09Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        31.8688475,
+        46.3855876,
+        35.5338527,
+        48.2725301
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T153557_20261016T153622_009912_013C2D",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T153557_20261016T153622_009912_013C2D/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261004T153558_20261004T153623_009737_013648",
+        "acquisitionTimeUtc": "2026-10-04T15:36:10Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          31.8654596,
+          46.3857573,
+          35.5308827,
+          48.2726775
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261004T153558_20261004T153623_009737_013648",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261004T153558_20261004T153623_009737_013648/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261016T042445_20261016T042510_009905_013BFC",
+      "acquisitionTimeUtc": "2026-10-16T04:24:58Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 7,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        26.7293411,
+        59.3493864,
+        31.7691191,
+        61.2536853
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T042445_20261016T042510_009905_013BFC",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T042445_20261016T042510_009905_013BFC/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261004T042446_20261004T042511_009730_013612",
+        "acquisitionTimeUtc": "2026-10-04T04:24:59Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 7,
+        "footprintBbox": [
+          26.7272922,
+          59.3499307,
+          31.7664117,
+          61.2535522
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261004T042446_20261004T042511_009730_013612",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261004T042446_20261004T042511_009730_013612/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261015T154436_20261015T154501_005028_00980D",
+      "acquisitionTimeUtc": "2026-10-15T15:44:49Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 87,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        29.5943379,
+        47.1332316,
+        33.3100321,
+        49.0197614
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261015T154436_20261015T154501_005028_00980D",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261015T154436_20261015T154501_005028_00980D/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-04",
+        "confirmed-t019-06",
+        "ukr-rus-UA-48.40-31.20"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261003T154436_20261003T154501_004853_0091F1",
+        "acquisitionTimeUtc": "2026-10-03T15:44:49Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 87,
+        "footprintBbox": [
+          29.5937249,
+          47.1332463,
+          33.3094009,
+          49.0197669
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261003T154436_20261003T154501_004853_0091F1",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261003T154436_20261003T154501_004853_0091F1/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261015T043307_20261015T043332_005021_0097D8",
+      "acquisitionTimeUtc": "2026-10-15T04:33:20Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 80,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        24.75936,
+        59.6334789,
+        29.8437924,
+        61.5390122
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261015T043307_20261015T043332_005021_0097D8",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261015T043307_20261015T043332_005021_0097D8/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-06"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261003T043307_20261003T043332_004846_0091BB",
+        "acquisitionTimeUtc": "2026-10-03T04:33:20Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 80,
+        "footprintBbox": [
+          24.7603148,
+          59.6334076,
+          29.8447267,
+          61.5389332
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261003T043307_20261003T043332_004846_0091BB",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261003T043307_20261003T043332_004846_0091BB/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261015T034704_20261015T034729_009890_013B84",
+      "acquisitionTimeUtc": "2026-10-15T03:47:17Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 167,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.8214554,
+        46.9565694,
+        37.526047,
+        48.8425527
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261015T034704_20261015T034729_009890_013B84",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261015T034704_20261015T034729_009890_013B84/thumbnail",
+      "aoiIds": [
+        "confirmed-t019-03"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261003T034705_20261003T034730_009715_013596",
+        "acquisitionTimeUtc": "2026-10-03T03:47:18Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 167,
+        "footprintBbox": [
+          33.8196704,
+          46.9564059,
+          37.5244506,
+          48.8427471
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261003T034705_20261003T034730_009715_013596",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261003T034705_20261003T034730_009715_013596/thumbnail",
+        "daysEarlier": 12.0
+      }
+    }
+  ]
+}

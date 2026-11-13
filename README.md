@@ -8,7 +8,8 @@ This repository holds only public RSS and open API material. There is no scrapin
 
 - `collector/` — Python collector that polls public RSS feeds and writes event JSON.
 - `data/` — Latest events, per-country slices, run archives, source notes, and public official-brief excerpts.
-- `sources/geospatial/` — Notes on geospatial and satellite APIs (Nominatim, NASA, Copernicus, and related catalogues). These notes are documentation only.
+- `sources/geospatial/` — Notes on geospatial and satellite APIs (Nominatim, NASA, Copernicus, and related catalogues), plus the [Sentinel imagery catalog schema](sources/geospatial/imagery-catalog.md).
+- `data/imagery/` — Regenerable Sentinel-1 GRD scene lists by region and Sentinel-2 L2A before/after pairs for confirmed events. Catalogue metadata only; no processed imagery.
 
 ## News and humanitarian feeds
 

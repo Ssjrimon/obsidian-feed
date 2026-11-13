@@ -1,0 +1,683 @@
+{
+  "schema": "obsidian-imagery-sentinel1-v1",
+  "region": "LEBANON",
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "purpose": "infrastructure and disaster change-detection leads only",
+  "catalog": "earth-search",
+  "collection": "sentinel-1-grd",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "aois": [
+    {
+      "id": "lebanon-LB-33.90-35.50",
+      "kind": "feed-watch-point",
+      "label": "Feed watch point LB",
+      "lat": 33.9,
+      "lon": 35.5,
+      "bbox": [
+        35.25,
+        33.65,
+        35.75,
+        34.15
+      ],
+      "eventId": null
+    }
+  ],
+  "passCount": 19,
+  "pairedPassCount": 18,
+  "passes": [
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261110T033436_20261110T033501_010269_01481F",
+      "acquisitionTimeUtc": "2026-11-10T03:34:49Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 21,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        34.9325563,
+        32.5404525,
+        37.9054509,
+        34.4424135
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261110T033436_20261110T033501_010269_01481F",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261110T033436_20261110T033501_010269_01481F/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261029T033437_20261029T033502_010094_014261",
+        "acquisitionTimeUtc": "2026-10-29T03:34:49Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 21,
+        "footprintBbox": [
+          34.9318284,
+          32.540375,
+          37.9042857,
+          34.4423261
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261029T033437_20261029T033502_010094_014261",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261029T033437_20261029T033502_010094_014261/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261109T153214_20261109T153239_010262_0147E7",
+      "acquisitionTimeUtc": "2026-11-09T15:32:27Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        35.301442,
+        33.0510083,
+        38.3105216,
+        34.952856
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261109T153214_20261109T153239_010262_0147E7",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261109T153214_20261109T153239_010262_0147E7/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261028T153212_20261028T153237_010087_014227",
+        "acquisitionTimeUtc": "2026-10-28T15:32:24Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          35.3524487,
+          32.8637564,
+          38.3475934,
+          34.7659529
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T153212_20261028T153237_010087_014227",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T153212_20261028T153237_010087_014227/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261109T034305_20261109T034330_005385_00A44E",
+      "acquisitionTimeUtc": "2026-11-09T03:43:17Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 94,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        32.8552753,
+        32.4631059,
+        35.8322986,
+        34.3659716
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261109T034305_20261109T034330_005385_00A44E",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261109T034305_20261109T034330_005385_00A44E/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261028T034305_20261028T034330_005210_009E44",
+        "acquisitionTimeUtc": "2026-10-28T03:43:17Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 94,
+        "footprintBbox": [
+          32.8557457,
+          32.462881,
+          35.832761,
+          34.3657416
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261028T034305_20261028T034330_005210_009E44",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261028T034305_20261028T034330_005210_009E44/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261108T154051_20261108T154116_005378_00A410",
+      "acquisitionTimeUtc": "2026-11-08T15:41:03Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 87,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.1222555,
+        33.6134057,
+        36.152901,
+        35.5150983
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261108T154051_20261108T154116_005378_00A410",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261108T154051_20261108T154116_005378_00A410/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ]
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261104T033453_20261104T033518_005312_00A1C6",
+      "acquisitionTimeUtc": "2026-11-04T03:35:06Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 21,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        34.8937179,
+        32.3428039,
+        37.8591082,
+        34.2449471
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261104T033453_20261104T033518_005312_00A1C6",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261104T033453_20261104T033518_005312_00A1C6/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261023T033453_20261023T033518_005137_009BC9",
+        "acquisitionTimeUtc": "2026-10-23T03:35:06Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 21,
+        "footprintBbox": [
+          34.8932769,
+          32.3426815,
+          37.8586551,
+          34.2448169
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261023T033453_20261023T033518_005137_009BC9",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261023T033453_20261023T033518_005137_009BC9/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261103T153225_20261103T153250_005305_00A18A",
+      "acquisitionTimeUtc": "2026-11-03T15:32:37Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        35.3519768,
+        32.8633314,
+        38.3467284,
+        34.7659363
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261103T153225_20261103T153250_005305_00A18A",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261103T153225_20261103T153250_005305_00A18A/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261022T153225_20261022T153250_005130_009B8C",
+        "acquisitionTimeUtc": "2026-10-22T15:32:37Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          35.3523911,
+          32.8636937,
+          38.3475449,
+          34.7658961
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T153225_20261022T153250_005130_009B8C",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T153225_20261022T153250_005130_009B8C/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261103T034237_20261103T034302_010167_0144AE",
+      "acquisitionTimeUtc": "2026-11-03T03:42:50Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 94,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.0293692,
+        33.3376407,
+        36.0409485,
+        35.2385696
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261103T034237_20261103T034302_010167_0144AE",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261103T034237_20261103T034302_010167_0144AE/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261022T034238_20261022T034303_009992_013EE3",
+        "acquisitionTimeUtc": "2026-10-22T03:42:50Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 94,
+        "footprintBbox": [
+          33.028117,
+          33.337531,
+          36.0388653,
+          35.2384732
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261022T034238_20261022T034303_009992_013EE3",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261022T034238_20261022T034303_009992_013EE3/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261102T154035_20261102T154100_010160_014476",
+      "acquisitionTimeUtc": "2026-11-02T15:40:47Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 87,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.1662324,
+        33.4265566,
+        36.1930395,
+        35.328116
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261102T154035_20261102T154100_010160_014476",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261102T154035_20261102T154100_010160_014476/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261021T154035_20261021T154100_009985_013EA7",
+        "acquisitionTimeUtc": "2026-10-21T15:40:48Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 87,
+        "footprintBbox": [
+          33.1647295,
+          33.4260593,
+          36.19155,
+          35.3280314
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T154035_20261021T154100_009985_013EA7",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T154035_20261021T154100_009985_013EA7/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261029T033437_20261029T033502_010094_014261",
+      "acquisitionTimeUtc": "2026-10-29T03:34:49Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 21,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        34.9318284,
+        32.540375,
+        37.9042857,
+        34.4423261
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261029T033437_20261029T033502_010094_014261",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261029T033437_20261029T033502_010094_014261/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261017T033437_20261017T033502_009919_013C64",
+        "acquisitionTimeUtc": "2026-10-17T03:34:49Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 21,
+        "footprintBbox": [
+          34.9325732,
+          32.5403704,
+          37.9054601,
+          34.4423265
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261017T033437_20261017T033502_009919_013C64",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261017T033437_20261017T033502_009919_013C64/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261028T153212_20261028T153237_010087_014227",
+      "acquisitionTimeUtc": "2026-10-28T15:32:24Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        35.3524487,
+        32.8637564,
+        38.3475934,
+        34.7659529
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T153212_20261028T153237_010087_014227",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261028T153212_20261028T153237_010087_014227/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261016T153212_20261016T153237_009912_013C2D",
+        "acquisitionTimeUtc": "2026-10-16T15:32:24Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          35.3526138,
+          32.8637602,
+          38.3473312,
+          34.765941
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T153212_20261016T153237_009912_013C2D",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T153212_20261016T153237_009912_013C2D/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261028T034305_20261028T034330_005210_009E44",
+      "acquisitionTimeUtc": "2026-10-28T03:43:17Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 94,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        32.8557457,
+        32.462881,
+        35.832761,
+        34.3657416
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261028T034305_20261028T034330_005210_009E44",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261028T034305_20261028T034330_005210_009E44/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261016T034305_20261016T034330_005035_009848",
+        "acquisitionTimeUtc": "2026-10-16T03:43:17Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 94,
+        "footprintBbox": [
+          32.8556424,
+          32.4630084,
+          35.8326556,
+          34.3658676
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261016T034305_20261016T034330_005035_009848",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261016T034305_20261016T034330_005035_009848/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261023T033453_20261023T033518_005137_009BC9",
+      "acquisitionTimeUtc": "2026-10-23T03:35:06Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 21,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        34.8932769,
+        32.3426815,
+        37.8586551,
+        34.2448169
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261023T033453_20261023T033518_005137_009BC9",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261023T033453_20261023T033518_005137_009BC9/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261011T033453_20261011T033518_004962_0095C9",
+        "acquisitionTimeUtc": "2026-10-11T03:35:06Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 21,
+        "footprintBbox": [
+          34.8931654,
+          32.3426804,
+          37.8585031,
+          34.2447899
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261011T033453_20261011T033518_004962_0095C9",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261011T033453_20261011T033518_004962_0095C9/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261022T153225_20261022T153250_005130_009B8C",
+      "acquisitionTimeUtc": "2026-10-22T15:32:37Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        35.3523911,
+        32.8636937,
+        38.3475449,
+        34.7658961
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T153225_20261022T153250_005130_009B8C",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261022T153225_20261022T153250_005130_009B8C/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261010T153225_20261010T153250_004955_009587",
+        "acquisitionTimeUtc": "2026-10-10T15:32:37Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          35.3531468,
+          32.8637765,
+          38.3483006,
+          34.7659788
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261010T153225_20261010T153250_004955_009587",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261010T153225_20261010T153250_004955_009587/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261022T034238_20261022T034303_009992_013EE3",
+      "acquisitionTimeUtc": "2026-10-22T03:42:50Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 94,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.028117,
+        33.337531,
+        36.0388653,
+        35.2384732
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261022T034238_20261022T034303_009992_013EE3",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261022T034238_20261022T034303_009992_013EE3/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261010T034238_20261010T034303_009817_0138E4",
+        "acquisitionTimeUtc": "2026-10-10T03:42:50Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 94,
+        "footprintBbox": [
+          33.0290839,
+          33.3374849,
+          36.0397918,
+          35.2384017
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261010T034238_20261010T034303_009817_0138E4",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261010T034238_20261010T034303_009817_0138E4/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261021T154035_20261021T154100_009985_013EA7",
+      "acquisitionTimeUtc": "2026-10-21T15:40:48Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 87,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.1647295,
+        33.4260593,
+        36.19155,
+        35.3280314
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T154035_20261021T154100_009985_013EA7",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261021T154035_20261021T154100_009985_013EA7/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261009T154035_20261009T154100_009810_0138A8",
+        "acquisitionTimeUtc": "2026-10-09T15:40:48Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 87,
+        "footprintBbox": [
+          33.1677901,
+          33.4264157,
+          36.1947201,
+          35.3280524
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261009T154035_20261009T154100_009810_0138A8",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261009T154035_20261009T154100_009810_0138A8/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261017T033437_20261017T033502_009919_013C64",
+      "acquisitionTimeUtc": "2026-10-17T03:34:49Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 21,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        34.9325732,
+        32.5403704,
+        37.9054601,
+        34.4423265
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261017T033437_20261017T033502_009919_013C64",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261017T033437_20261017T033502_009919_013C64/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261005T033438_20261005T033503_009744_013681",
+        "acquisitionTimeUtc": "2026-10-05T03:34:50Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 21,
+        "footprintBbox": [
+          34.9305537,
+          32.539846,
+          37.9030268,
+          34.4422288
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261005T033438_20261005T033503_009744_013681",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261005T033438_20261005T033503_009744_013681/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261016T153212_20261016T153237_009912_013C2D",
+      "acquisitionTimeUtc": "2026-10-16T15:32:24Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 14,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        35.3526138,
+        32.8637602,
+        38.3473312,
+        34.765941
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T153212_20261016T153237_009912_013C2D",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261016T153212_20261016T153237_009912_013C2D/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261004T153213_20261004T153238_009737_013648",
+        "acquisitionTimeUtc": "2026-10-04T15:32:25Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 14,
+        "footprintBbox": [
+          35.3489551,
+          32.8638377,
+          38.3440442,
+          34.7659989
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261004T153213_20261004T153238_009737_013648",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261004T153213_20261004T153238_009737_013648/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261016T034305_20261016T034330_005035_009848",
+      "acquisitionTimeUtc": "2026-10-16T03:43:17Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 94,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        32.8556424,
+        32.4630084,
+        35.8326556,
+        34.3658676
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261016T034305_20261016T034330_005035_009848",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261016T034305_20261016T034330_005035_009848/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261004T034305_20261004T034330_004860_00922D",
+        "acquisitionTimeUtc": "2026-10-04T03:43:17Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 94,
+        "footprintBbox": [
+          32.8559195,
+          32.4626149,
+          35.832926,
+          34.3658916
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261004T034305_20261004T034330_004860_00922D",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261004T034305_20261004T034330_004860_00922D/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261015T154051_20261015T154116_005028_00980D",
+      "acquisitionTimeUtc": "2026-10-15T15:41:04Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 87,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        33.1213914,
+        33.6135077,
+        36.152409,
+        35.5151798
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261015T154051_20261015T154116_005028_00980D",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261015T154051_20261015T154116_005028_00980D/thumbnail",
+      "aoiIds": [
+        "lebanon-LB-33.90-35.50"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261003T154051_20261003T154116_004853_0091F1",
+        "acquisitionTimeUtc": "2026-10-03T15:41:04Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 87,
+        "footprintBbox": [
+          33.1213782,
+          33.6135335,
+          36.1511844,
+          35.5152074
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261003T154051_20261003T154116_004853_0091F1",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261003T154051_20261003T154116_004853_0091F1/thumbnail",
+        "daysEarlier": 12.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "obsidian-imagery-before-after-v1",
+  "eventId": "90d68d3e1c85699c",
+  "trendId": "t019-07",
+  "relatedFeedIds": [
+    "fbca691f68dfed3e"
+  ],
+  "title": "Bundibugyo Ebola outbreak in the Democratic Republic of the Congo",
+  "label": "Confirmed",
+  "eventTimeUtc": "2026-11-11T00:00:00Z",
+  "place": {
+    "name": "Bunia, Ituri province, Democratic Republic of the Congo (WHO-described epicentre)",
+    "region": "AFRICA",
+    "lat": 1.56,
+    "lon": 30.252,
+    "bbox": [
+      30.15,
+      1.46,
+      30.35,
+      1.66
+    ]
+  },
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "catalog": "earth-search",
+  "collection": "sentinel-2-c1-l2a",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "selection": {
+    "before": "latest scene with cloud cover at or under 20%",
+    "after": "only scenes above 80% cloud cover in window; latest kept as a catalogue lead, not a clear view",
+    "cloudCoverPreferencePct": 20.0
+  },
+  "before": {
+    "sceneId": "S2A_T35NRB_20261030T082219_L2A",
+    "date": "2026-10-30",
+    "acquisitionTimeUtc": "2026-10-30T08:29:56Z",
+    "cloudCoverPct": 17.3953,
+    "platform": "sentinel-2a",
+    "mgrsTile": "MGRS-35NRB",
+    "footprintBbox": [
+      29.695124,
+      0.814743,
+      30.68185,
+      1.807794
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T35NRB_20261030T082219_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T35NRB_20261030T082219_L2A/thumbnail"
+  },
+  "after": {
+    "sceneId": "S2B_T35NRB_20261112T082628_L2A",
+    "date": "2026-11-12",
+    "acquisitionTimeUtc": "2026-11-12T08:29:50Z",
+    "cloudCoverPct": 96.3061,
+    "platform": "sentinel-2b",
+    "mgrsTile": "MGRS-35NRB",
+    "footprintBbox": [
+      29.695124,
+      0.814743,
+      30.68185,
+      1.807794
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2B_T35NRB_20261112T082628_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2B_T35NRB_20261112T082628_L2A/thumbnail"
+  },
+  "notes": "Ongoing outbreak across eight provinces; Ituri is the epicentre cited by WHO. Imagery is a place snapshot, not a case map."
+}

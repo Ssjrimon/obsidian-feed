@@ -1,0 +1,57 @@
+{
+  "schema": "obsidian-imagery-before-after-v1",
+  "eventId": "b90f4c650f0d016b",
+  "trendId": "t019-04",
+  "relatedFeedIds": [
+    "0106bfb322a6e13a"
+  ],
+  "title": "Russian drone hits a hospital in central Kyiv",
+  "label": "Confirmed",
+  "eventTimeUtc": "2026-11-13T01:00:00Z",
+  "place": {
+    "name": "National Institute of Traumatology and Orthopedics, Shevchenkivskyi, Kyiv",
+    "region": "UKR-RUS",
+    "lat": 50.454,
+    "lon": 30.505,
+    "bbox": [
+      30.45,
+      50.42,
+      30.56,
+      50.49
+    ]
+  },
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "catalog": "earth-search",
+  "collection": "sentinel-2-c1-l2a",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "selection": {
+    "before": "no scene at or under 20% cloud cover; latest scene at or under 80%",
+    "after": "no scene in window",
+    "cloudCoverPreferencePct": 20.0
+  },
+  "before": {
+    "sceneId": "S2A_T35UQR_20261107T091328_L2A",
+    "date": "2026-11-07",
+    "acquisitionTimeUtc": "2026-11-07T09:16:29Z",
+    "cloudCoverPct": 55.3348,
+    "platform": "sentinel-2a",
+    "mgrsTile": "MGRS-35UQR",
+    "footprintBbox": [
+      29.76361,
+      49.510599,
+      31.059843,
+      50.518104
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T35UQR_20261107T091328_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T35UQR_20261107T091328_L2A/thumbnail"
+  },
+  "after": null,
+  "problems": [
+    "after: no scene in window"
+  ]
+}

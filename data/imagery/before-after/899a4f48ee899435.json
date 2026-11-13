@@ -1,0 +1,70 @@
+{
+  "schema": "obsidian-imagery-before-after-v1",
+  "eventId": "899a4f48ee899435",
+  "trendId": "t019-02",
+  "relatedFeedIds": [
+    "1f7ae82ec81cf6bd",
+    "6fff2dc8d4b7168a"
+  ],
+  "title": "Israeli strike hits Nasser Hospital surgical building in Khan Younis",
+  "label": "Confirmed",
+  "eventTimeUtc": "2026-11-11T22:39:00Z",
+  "place": {
+    "name": "Nasser Medical Complex, Khan Younis, Gaza Strip",
+    "region": "ISR-GAZA",
+    "lat": 31.346,
+    "lon": 34.306,
+    "bbox": [
+      34.26,
+      31.31,
+      34.35,
+      31.38
+    ]
+  },
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "catalog": "earth-search",
+  "collection": "sentinel-2-c1-l2a",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "selection": {
+    "before": "latest scene with cloud cover at or under 20%",
+    "after": "latest scene with cloud cover at or under 20%",
+    "cloudCoverPreferencePct": 20.0
+  },
+  "before": {
+    "sceneId": "S2C_T36RXV_20261110T083037_L2A",
+    "date": "2026-11-10",
+    "acquisitionTimeUtc": "2026-11-10T08:31:28Z",
+    "cloudCoverPct": 0.0034,
+    "platform": "sentinel-2c",
+    "mgrsTile": "MGRS-36RXV",
+    "footprintBbox": [
+      34.043582,
+      30.626399,
+      35.211735,
+      31.631184
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2C_T36RXV_20261110T083037_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2C_T36RXV_20261110T083037_L2A/thumbnail"
+  },
+  "after": {
+    "sceneId": "S2A_T36RXV_20261112T082112_L2A",
+    "date": "2026-11-12",
+    "acquisitionTimeUtc": "2026-11-12T08:31:36Z",
+    "cloudCoverPct": 0.0075,
+    "platform": "sentinel-2a",
+    "mgrsTile": "MGRS-36RXV",
+    "footprintBbox": [
+      34.043582,
+      30.626399,
+      35.211735,
+      31.631184
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T36RXV_20261112T082112_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T36RXV_20261112T082112_L2A/thumbnail"
+  }
+}

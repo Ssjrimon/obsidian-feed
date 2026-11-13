@@ -1,0 +1,57 @@
+{
+  "schema": "obsidian-imagery-before-after-v1",
+  "eventId": "1056ac62ed5eeedc",
+  "trendId": "t019-03",
+  "relatedFeedIds": [
+    "5f84e7011e0d5d0b"
+  ],
+  "title": "Russian strikes hit residential buildings in Zaporizhzhia",
+  "label": "Confirmed",
+  "eventTimeUtc": "2026-11-13T08:00:00Z",
+  "place": {
+    "name": "Zaporizhzhia, Ukraine (Kosmichnyi district)",
+    "region": "UKR-RUS",
+    "lat": 47.839,
+    "lon": 35.14,
+    "bbox": [
+      35.05,
+      47.76,
+      35.24,
+      47.92
+    ]
+  },
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "catalog": "earth-search",
+  "collection": "sentinel-2-c1-l2a",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "selection": {
+    "before": "no scene at or under 20% cloud cover; latest scene at or under 80%",
+    "after": "no scene in window",
+    "cloudCoverPreferencePct": 20.0
+  },
+  "before": {
+    "sceneId": "S2A_T36TXT_20261108T084446_L2A",
+    "date": "2026-11-08",
+    "acquisitionTimeUtc": "2026-11-08T08:47:08Z",
+    "cloudCoverPct": 51.2073,
+    "platform": "sentinel-2a",
+    "mgrsTile": "MGRS-36TXT",
+    "footprintBbox": [
+      34.3119,
+      46.832638,
+      35.802833,
+      47.845912
+    ],
+    "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T36TXT_20261108T084446_L2A",
+    "thumbnailUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T36TXT_20261108T084446_L2A/thumbnail"
+  },
+  "after": null,
+  "problems": [
+    "after: no scene in window"
+  ]
+}

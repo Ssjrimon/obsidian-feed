@@ -1,0 +1,942 @@
+{
+  "schema": "obsidian-imagery-sentinel1-v1",
+  "region": "IRAN-GULF",
+  "generatedAt": "2026-11-13T17:18:32Z",
+  "windowDays": 30,
+  "purpose": "infrastructure and disaster change-detection leads only",
+  "catalog": "earth-search",
+  "collection": "sentinel-1-grd",
+  "attribution": "Copernicus Sentinel data 2026",
+  "caveats": [
+    "Overhead is not imaging: a scene shows what was overhead and not why.",
+    "Radar change is a lead and not confirmation."
+  ],
+  "aois": [
+    {
+      "id": "iran-gulf-IR-32.40-53.70",
+      "kind": "feed-watch-point",
+      "label": "Feed watch point IR",
+      "lat": 32.4,
+      "lon": 53.7,
+      "bbox": [
+        53.45,
+        32.15,
+        53.95,
+        32.65
+      ],
+      "eventId": null
+    },
+    {
+      "id": "iran-gulf-SA-23.90-45.10",
+      "kind": "feed-watch-point",
+      "label": "Feed watch point SA SAUDI",
+      "lat": 23.9,
+      "lon": 45.1,
+      "bbox": [
+        44.85,
+        23.65,
+        45.35,
+        24.15
+      ],
+      "eventId": null
+    },
+    {
+      "id": "iran-gulf-AE-24.30-54.40",
+      "kind": "feed-watch-point",
+      "label": "Feed watch point AE UAE",
+      "lat": 24.3,
+      "lon": 54.4,
+      "bbox": [
+        54.15,
+        24.05,
+        54.65,
+        24.55
+      ],
+      "eventId": null
+    }
+  ],
+  "passCount": 25,
+  "pairedPassCount": 25,
+  "passes": [
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261113T022249_20261113T022314_010312_014987",
+      "acquisitionTimeUtc": "2026-11-13T02:23:02Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 64,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.8458301,
+        24.3184029,
+        54.6094028,
+        26.2386115
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261113T022249_20261113T022314_010312_014987",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261113T022249_20261113T022314_010312_014987/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261101T022249_20261101T022314_010137_0143BE",
+        "acquisitionTimeUtc": "2026-11-01T02:23:02Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 64,
+        "footprintBbox": [
+          51.8458438,
+          24.3183613,
+          54.6094073,
+          26.2385635
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261101T022249_20261101T022314_010137_0143BE",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261101T022249_20261101T022314_010137_0143BE/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261112T022917_20261112T022942_005428_00A5BD",
+      "acquisitionTimeUtc": "2026-11-12T02:29:29Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 137,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.1647243,
+        31.5276763,
+        54.1227051,
+        33.4309449
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261112T022917_20261112T022942_005428_00A5BD",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261112T022917_20261112T022942_005428_00A5BD/thumbnail",
+      "aoiIds": [
+        "iran-gulf-IR-32.40-53.70"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261031T022917_20261031T022942_005253_009FB3",
+        "acquisitionTimeUtc": "2026-10-31T02:29:29Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 137,
+        "footprintBbox": [
+          51.1657506,
+          31.5272917,
+          54.1236763,
+          33.4309447
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261031T022917_20261031T022942_005253_009FB3",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261031T022917_20261031T022942_005253_009FB3/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261111T142620_20261111T142645_005421_00A586",
+      "acquisitionTimeUtc": "2026-11-11T14:26:33Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 130,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        52.0244555,
+        32.0153675,
+        54.9869818,
+        33.9165304
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261111T142620_20261111T142645_005421_00A586",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261111T142620_20261111T142645_005421_00A586/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40",
+        "iran-gulf-IR-32.40-53.70"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261030T142621_20261030T142646_005246_009F7A",
+        "acquisitionTimeUtc": "2026-10-30T14:26:33Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 130,
+        "footprintBbox": [
+          52.0239362,
+          32.0154997,
+          54.9860559,
+          33.9166564
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261030T142621_20261030T142646_005246_009F7A",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261030T142621_20261030T142646_005246_009F7A/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261110T143159_20261110T143228_010276_01485C",
+      "acquisitionTimeUtc": "2026-11-10T14:32:13Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 28,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.7775826,
+        23.4341258,
+        54.5550534,
+        25.6131047
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261110T143159_20261110T143228_010276_01485C",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261110T143159_20261110T143228_010276_01485C/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261029T143159_20261029T143229_010101_0142A0",
+        "acquisitionTimeUtc": "2026-10-29T14:32:14Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 28,
+        "footprintBbox": [
+          51.7770138,
+          23.4333899,
+          54.5548189,
+          25.6130903
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261029T143159_20261029T143229_010101_0142A0",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261029T143159_20261029T143229_010101_0142A0/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261108T021504_20261108T021518_010239_014733",
+      "acquisitionTimeUtc": "2026-11-08T02:15:11Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 166,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.69311,
+        23.3633107,
+        56.2862924,
+        24.506348
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261108T021504_20261108T021518_010239_014733",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261108T021504_20261108T021518_010239_014733/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D",
+        "acquisitionTimeUtc": "2026-10-27T02:14:52Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 166,
+        "footprintBbox": [
+          53.8607467,
+          24.0936554,
+          56.616515,
+          26.0128302
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261107T022100_20261107T022125_005355_00A343",
+      "acquisitionTimeUtc": "2026-11-07T02:21:12Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 64,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.267027,
+        31.7362702,
+        56.2312475,
+        33.6392266
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261107T022100_20261107T022125_005355_00A343",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261107T022100_20261107T022125_005355_00A343/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40",
+        "iran-gulf-IR-32.40-53.70"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261026T022100_20261026T022125_005180_009D49",
+        "acquisitionTimeUtc": "2026-10-26T02:21:12Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 64,
+        "footprintBbox": [
+          53.2663498,
+          31.7362222,
+          56.2306041,
+          33.6392003
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261026T022100_20261026T022125_005180_009D49",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261026T022100_20261026T022125_005180_009D49/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261106T150438_20261106T150503_010218_014678",
+      "acquisitionTimeUtc": "2026-11-06T15:04:51Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 145,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        43.8215208,
+        22.4978291,
+        46.5399495,
+        24.4210815
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261106T150438_20261106T150503_010218_014678",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261106T150438_20261106T150503_010218_014678/thumbnail",
+      "aoiIds": [
+        "iran-gulf-SA-23.90-45.10"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261025T150438_20261025T150503_010043_0140B3",
+        "acquisitionTimeUtc": "2026-10-25T15:04:51Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 145,
+        "footprintBbox": [
+          43.8231625,
+          22.4976599,
+          46.5416142,
+          24.4209285
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261025T150438_20261025T150503_010043_0140B3",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261025T150438_20261025T150503_010043_0140B3/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261105T142352_20261105T142421_010203_0145F4",
+      "acquisitionTimeUtc": "2026-11-05T14:24:06Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 130,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.7526531,
+        23.8278453,
+        56.5439996,
+        26.0054137
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261105T142352_20261105T142421_010203_0145F4",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261105T142352_20261105T142421_010203_0145F4/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261024T142351_20261024T142421_010028_014031",
+        "acquisitionTimeUtc": "2026-10-24T14:24:06Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 130,
+        "footprintBbox": [
+          53.7556756,
+          23.8280913,
+          56.5471774,
+          26.0054022
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261024T142351_20261024T142421_010028_014031",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261024T142351_20261024T142421_010028_014031/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261104T143201_20261104T143226_005319_00A1FF",
+      "acquisitionTimeUtc": "2026-11-04T14:32:13Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 28,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.9818311,
+        22.7337787,
+        54.7143923,
+        24.6580534
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261104T143201_20261104T143226_005319_00A1FF",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261104T143201_20261104T143226_005319_00A1FF/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261023T143201_20261023T143226_005144_009C03",
+        "acquisitionTimeUtc": "2026-10-23T14:32:14Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 28,
+        "footprintBbox": [
+          51.9825921,
+          22.7338447,
+          54.7140135,
+          24.6581174
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261023T143201_20261023T143226_005144_009C03",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261023T143201_20261023T143226_005144_009C03/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261102T021455_20261102T021520_005282_00A0C3",
+      "acquisitionTimeUtc": "2026-11-02T02:15:07Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 166,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.8341106,
+        23.9567953,
+        56.5864037,
+        25.8762506
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261102T021455_20261102T021520_005282_00A0C3",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261102T021455_20261102T021520_005282_00A0C3/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261021T021455_20261021T021520_005107_009ABD",
+        "acquisitionTimeUtc": "2026-10-21T02:15:08Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 166,
+        "footprintBbox": [
+          53.8344299,
+          23.9567727,
+          56.586721,
+          25.8762266
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T021455_20261021T021520_005107_009ABD",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T021455_20261021T021520_005107_009ABD/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261101T022249_20261101T022314_010137_0143BE",
+      "acquisitionTimeUtc": "2026-11-01T02:23:02Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 64,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.8458438,
+        24.3183613,
+        54.6094073,
+        26.2385635
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261101T022249_20261101T022314_010137_0143BE",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261101T022249_20261101T022314_010137_0143BE/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261020T022250_20261020T022315_009962_013DCA",
+        "acquisitionTimeUtc": "2026-10-20T02:23:02Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 64,
+        "footprintBbox": [
+          51.8452687,
+          24.3184169,
+          54.6088292,
+          26.238617
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261020T022250_20261020T022315_009962_013DCA",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261020T022250_20261020T022315_009962_013DCA/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261031T022917_20261031T022942_005253_009FB3",
+      "acquisitionTimeUtc": "2026-10-31T02:29:29Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 137,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.1657506,
+        31.5272917,
+        54.1236763,
+        33.4309447
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261031T022917_20261031T022942_005253_009FB3",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261031T022917_20261031T022942_005253_009FB3/thumbnail",
+      "aoiIds": [
+        "iran-gulf-IR-32.40-53.70"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261019T022917_20261019T022942_005078_0099B8",
+        "acquisitionTimeUtc": "2026-10-19T02:29:30Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 137,
+        "footprintBbox": [
+          51.1652033,
+          31.5276137,
+          54.1231481,
+          33.4308591
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261019T022917_20261019T022942_005078_0099B8",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261019T022917_20261019T022942_005078_0099B8/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261030T142621_20261030T142646_005246_009F7A",
+      "acquisitionTimeUtc": "2026-10-30T14:26:33Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 130,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        52.0239362,
+        32.0154997,
+        54.9860559,
+        33.9166564
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261030T142621_20261030T142646_005246_009F7A",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261030T142621_20261030T142646_005246_009F7A/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40",
+        "iran-gulf-IR-32.40-53.70"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261018T142621_20261018T142646_005071_009981",
+        "acquisitionTimeUtc": "2026-10-18T14:26:33Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 130,
+        "footprintBbox": [
+          52.0233292,
+          32.0154855,
+          54.9858614,
+          33.9166521
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261018T142621_20261018T142646_005071_009981",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261018T142621_20261018T142646_005071_009981/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261029T143159_20261029T143229_010101_0142A0",
+      "acquisitionTimeUtc": "2026-10-29T14:32:14Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 28,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.7770138,
+        23.4333899,
+        54.5548189,
+        25.6130903
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261029T143159_20261029T143229_010101_0142A0",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261029T143159_20261029T143229_010101_0142A0/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261017T143159_20261017T143229_009926_013CA1",
+        "acquisitionTimeUtc": "2026-10-17T14:32:14Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 28,
+        "footprintBbox": [
+          51.7766958,
+          23.4341295,
+          54.5541752,
+          25.6131151
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261017T143159_20261017T143229_009926_013CA1",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261017T143159_20261017T143229_009926_013CA1/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D",
+      "acquisitionTimeUtc": "2026-10-27T02:14:52Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 166,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.8607467,
+        24.0936554,
+        56.616515,
+        26.0128302
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261015T021505_20261015T021519_009889_013B7F",
+        "acquisitionTimeUtc": "2026-10-15T02:15:12Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 166,
+        "footprintBbox": [
+          53.6934657,
+          23.3637233,
+          56.2866471,
+          24.5063684
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261015T021505_20261015T021519_009889_013B7F",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261015T021505_20261015T021519_009889_013B7F/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261026T022100_20261026T022125_005180_009D49",
+      "acquisitionTimeUtc": "2026-10-26T02:21:12Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 64,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.2663498,
+        31.7362222,
+        56.2306041,
+        33.6392003
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261026T022100_20261026T022125_005180_009D49",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261026T022100_20261026T022125_005180_009D49/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40",
+        "iran-gulf-IR-32.40-53.70"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261014T022100_20261014T022125_005005_009748",
+        "acquisitionTimeUtc": "2026-10-14T02:21:12Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 64,
+        "footprintBbox": [
+          53.2673901,
+          31.7365787,
+          56.2315985,
+          33.6391067
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261014T022100_20261014T022125_005005_009748",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261014T022100_20261014T022125_005005_009748/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261025T150438_20261025T150503_010043_0140B3",
+      "acquisitionTimeUtc": "2026-10-25T15:04:51Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 145,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        43.8231625,
+        22.4976599,
+        46.5416142,
+        24.4209285
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261025T150438_20261025T150503_010043_0140B3",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261025T150438_20261025T150503_010043_0140B3/thumbnail",
+      "aoiIds": [
+        "iran-gulf-SA-23.90-45.10"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261013T150439_20261013T150504_009868_013AC5",
+        "acquisitionTimeUtc": "2026-10-13T15:04:51Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 145,
+        "footprintBbox": [
+          43.8216375,
+          22.4978181,
+          46.5404554,
+          24.4210781
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261013T150439_20261013T150504_009868_013AC5",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261013T150439_20261013T150504_009868_013AC5/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261024T142351_20261024T142421_010028_014031",
+      "acquisitionTimeUtc": "2026-10-24T14:24:06Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 130,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.7556756,
+        23.8280913,
+        56.5471774,
+        26.0054022
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261024T142351_20261024T142421_010028_014031",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261024T142351_20261024T142421_010028_014031/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261012T142352_20261012T142422_009853_013A36",
+        "acquisitionTimeUtc": "2026-10-12T14:24:07Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 130,
+        "footprintBbox": [
+          53.7531189,
+          23.8277963,
+          56.5444832,
+          26.0053785
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261012T142352_20261012T142422_009853_013A36",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261012T142352_20261012T142422_009853_013A36/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261023T143201_20261023T143226_005144_009C03",
+      "acquisitionTimeUtc": "2026-10-23T14:32:14Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 28,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.9825921,
+        22.7338447,
+        54.7140135,
+        24.6581174
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261023T143201_20261023T143226_005144_009C03",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261023T143201_20261023T143226_005144_009C03/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261011T143201_20261011T143226_004969_009605",
+        "acquisitionTimeUtc": "2026-10-11T14:32:13Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 28,
+        "footprintBbox": [
+          51.9827648,
+          22.7337995,
+          54.7149452,
+          24.658073
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261011T143201_20261011T143226_004969_009605",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261011T143201_20261011T143226_004969_009605/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261021T021455_20261021T021520_005107_009ABD",
+      "acquisitionTimeUtc": "2026-10-21T02:15:08Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 166,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.8344299,
+        23.9567727,
+        56.586721,
+        25.8762266
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T021455_20261021T021520_005107_009ABD",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261021T021455_20261021T021520_005107_009ABD/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261009T021455_20261009T021520_004932_0094B6",
+        "acquisitionTimeUtc": "2026-10-09T02:15:08Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 166,
+        "footprintBbox": [
+          53.8341421,
+          23.9566823,
+          56.5856256,
+          25.8761209
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261009T021455_20261009T021520_004932_0094B6",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261009T021455_20261009T021520_004932_0094B6/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261020T022250_20261020T022315_009962_013DCA",
+      "acquisitionTimeUtc": "2026-10-20T02:23:02Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 64,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.8452687,
+        24.3184169,
+        54.6088292,
+        26.238617
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261020T022250_20261020T022315_009962_013DCA",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261020T022250_20261020T022315_009962_013DCA/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261008T022250_20261008T022315_009787_0137E8",
+        "acquisitionTimeUtc": "2026-10-08T02:23:02Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 64,
+        "footprintBbox": [
+          51.8452011,
+          24.317987,
+          54.6087479,
+          26.2385713
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261008T022250_20261008T022315_009787_0137E8",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261008T022250_20261008T022315_009787_0137E8/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261019T022917_20261019T022942_005078_0099B8",
+      "acquisitionTimeUtc": "2026-10-19T02:29:30Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "descending",
+      "relativeOrbit": 137,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.1652033,
+        31.5276137,
+        54.1231481,
+        33.4308591
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261019T022917_20261019T022942_005078_0099B8",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261019T022917_20261019T022942_005078_0099B8/thumbnail",
+      "aoiIds": [
+        "iran-gulf-IR-32.40-53.70"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261007T022917_20261007T022942_004903_0093A5",
+        "acquisitionTimeUtc": "2026-10-07T02:29:30Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "descending",
+        "relativeOrbit": 137,
+        "footprintBbox": [
+          51.1649976,
+          31.5276102,
+          54.1229327,
+          33.4308493
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261007T022917_20261007T022942_004903_0093A5",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261007T022917_20261007T022942_004903_0093A5/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1D_IW_GRDH_1SDV_20261018T142621_20261018T142646_005071_009981",
+      "acquisitionTimeUtc": "2026-10-18T14:26:33Z",
+      "platform": "sentinel-1d",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 130,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        52.0233292,
+        32.0154855,
+        54.9858614,
+        33.9166521
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261018T142621_20261018T142646_005071_009981",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261018T142621_20261018T142646_005071_009981/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40",
+        "iran-gulf-IR-32.40-53.70"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1D_IW_GRDH_1SDV_20261006T142621_20261006T142646_004896_00936C",
+        "acquisitionTimeUtc": "2026-10-06T14:26:34Z",
+        "platform": "sentinel-1d",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 130,
+        "footprintBbox": [
+          52.0237861,
+          32.0154563,
+          54.9863056,
+          33.9166148
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261006T142621_20261006T142646_004896_00936C",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1D_IW_GRDH_1SDV_20261006T142621_20261006T142646_004896_00936C/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261017T143159_20261017T143229_009926_013CA1",
+      "acquisitionTimeUtc": "2026-10-17T14:32:14Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "ascending",
+      "relativeOrbit": 28,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        51.7766958,
+        23.4341295,
+        54.5541752,
+        25.6131151
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261017T143159_20261017T143229_009926_013CA1",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261017T143159_20261017T143229_009926_013CA1/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261005T143200_20261005T143229_009751_0136C0",
+        "acquisitionTimeUtc": "2026-10-05T14:32:15Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "ascending",
+        "relativeOrbit": 28,
+        "footprintBbox": [
+          51.7753664,
+          23.4341597,
+          54.5528419,
+          25.6131424
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261005T143200_20261005T143229_009751_0136C0",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261005T143200_20261005T143229_009751_0136C0/thumbnail",
+        "daysEarlier": 12.0
+      }
+    },
+    {
+      "sceneId": "S1C_IW_GRDH_1SDV_20261015T021505_20261015T021519_009889_013B7F",
+      "acquisitionTimeUtc": "2026-10-15T02:15:12Z",
+      "platform": "sentinel-1c",
+      "orbitDirection": "descending",
+      "relativeOrbit": 166,
+      "instrumentMode": "IW",
+      "footprintBbox": [
+        53.6934657,
+        23.3637233,
+        56.2866471,
+        24.5063684
+      ],
+      "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261015T021505_20261015T021519_009889_013B7F",
+      "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261015T021505_20261015T021519_009889_013B7F/thumbnail",
+      "aoiIds": [
+        "iran-gulf-AE-24.30-54.40"
+      ],
+      "previousSameOrbit": {
+        "sceneId": "S1C_IW_GRDH_1SDV_20261003T021505_20261003T021519_009714_013591",
+        "acquisitionTimeUtc": "2026-10-03T02:15:12Z",
+        "platform": "sentinel-1c",
+        "orbitDirection": "descending",
+        "relativeOrbit": 166,
+        "footprintBbox": [
+          53.6910953,
+          23.3637068,
+          56.2842923,
+          24.5063587
+        ],
+        "stacItemUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261003T021505_20261003T021519_009714_013591",
+        "previewUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20261003T021505_20261003T021519_009714_013591/thumbnail",
+        "daysEarlier": 12.0
+      }
+    }
+  ]
+}
