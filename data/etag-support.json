@@ -1,0 +1,439 @@
+{
+  "generatedMs": 1793934840057,
+  "feeds": {
+    "BBC News": {
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "BBC News Middle East": {
+      "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "BBC News Africa": {
+      "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "BBC News Asia": {
+      "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "BBC News Europe": {
+      "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "BBC News Latin America": {
+      "url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "Al Jazeera": {
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "etag": "W/\"fae12fafdb0bd2c30f5fd7a59f54de6a\"",
+      "lastModified": "Fri, 06 Nov 2026 02:51:43 GMT",
+      "http": 200,
+      "error": null
+    },
+    "France 24": {
+      "url": "https://www.france24.com/en/rss",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "DW": {
+      "url": "https://rss.dw.com/rdf/rss-en-world",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "The Guardian": {
+      "url": "https://www.theguardian.com/world/rss",
+      "etag": "W/\"hash-2323161230457463881\"",
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "NPR": {
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "UN News": {
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "ReliefWeb": {
+      "url": "https://reliefweb.int/updates/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 202,
+      "error": null
+    },
+    "Kyiv Independent": {
+      "url": "https://kyivindependent.com/news-archive/rss/",
+      "etag": "W/\"4583-C3zKRAA9CRl/xcqUNqkt/pgq3AY\"",
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "Times of Israel": {
+      "url": "https://www.timesofisrael.com/feed/",
+      "etag": "W/\"17f4a437d8c9c50184c57312201a9e6e\"",
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "Middle East Eye": {
+      "url": "https://www.middleeasteye.net/rss",
+      "etag": "W/\"1793934256\"",
+      "lastModified": "Fri, 06 Nov 2026 03:04:16 GMT",
+      "http": 200,
+      "error": null
+    },
+    "The Diplomat": {
+      "url": "https://thediplomat.com/feed/",
+      "etag": "W/\"5952e15cb8697ef2e6bf787f86c8cca8\"",
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "Defense News": {
+      "url": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml",
+      "etag": "W/\"671d49eec76157bada22a57a62155d3a\"",
+      "lastModified": "Thu, 05 Nov 2026 22:55:48 GMT",
+      "http": 200,
+      "error": null
+    },
+    "War on the Rocks": {
+      "url": "https://warontherocks.com/feed/",
+      "etag": "W/\"1db271d509c06a64d53fa911d0718ac3\"",
+      "lastModified": "Thu, 05 Nov 2026 19:51:02 GMT",
+      "http": 200,
+      "error": null
+    },
+    "Breaking Defense": {
+      "url": "https://breakingdefense.com/feed/",
+      "etag": "W/\"4be1431133432e8b04e7b61c18b7116e\"",
+      "lastModified": "Thu, 05 Nov 2026 22:02:14 GMT",
+      "http": 200,
+      "error": null
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "etag": null,
+      "lastModified": null,
+      "http": 403,
+      "error": null
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "etag": null,
+      "lastModified": "Thu, 05 Nov 2026 16:19:27 GMT",
+      "http": 200,
+      "error": null
+    },
+    "AllAfrica": {
+      "url": "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
+      "etag": null,
+      "lastModified": "Fri, 06 Nov 2026 03:00:00 GMT",
+      "http": 200,
+      "error": null
+    },
+    "MercoPress": {
+      "url": "https://en.mercopress.com/rss",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "NHK World": {
+      "url": "https://www3.nhk.or.jp/nhkworld/en/news/rss/all.xml",
+      "etag": "\"d4eb94b69942775adc94ee433c52dd78\"",
+      "lastModified": "Thu, 22 Jan 2026 06:57:17 GMT",
+      "http": 404,
+      "error": null
+    },
+    "Yonhap": {
+      "url": "https://en.yna.co.kr/RSS/news.xml",
+      "etag": "1793934875858",
+      "lastModified": "Fri, 06 Nov 2026 03:13:13 GMT",
+      "http": 200,
+      "error": null
+    },
+    "US State Dept Travel Advisories": {
+      "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
+      "etag": "\"86ccc-65f930108963b-gzip\"",
+      "lastModified": "Fri, 06 Nov 2026 03:14:02 GMT",
+      "http": 200,
+      "error": null
+    },
+    "US DoD": {
+      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=10",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "UK MoD": {
+      "url": "https://www.gov.uk/government/organisations/ministry-of-defence.atom",
+      "etag": "W/\"9b9b0669a3fe88569a70056f9ec806a4\"",
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "NATO": {
+      "url": "https://www.nato.int/cps/rss/en/natohq/news.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 404,
+      "error": null
+    },
+    "ReliefWeb Headlines": {
+      "url": "https://reliefweb.int/headlines/rss.xml",
+      "etag": null,
+      "lastModified": null,
+      "http": 202,
+      "error": null
+    },
+    "GN:airstrike OR missile strike": {
+      "url": "https://news.google.com/rss/search?q=airstrike%20OR%20missile%20strike%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:drone attack": {
+      "url": "https://news.google.com/rss/search?q=drone%20attack%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:military clashes": {
+      "url": "https://news.google.com/rss/search?q=military%20clashes%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:coup OR junta": {
+      "url": "https://news.google.com/rss/search?q=coup%20OR%20junta%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:ceasefire talks": {
+      "url": "https://news.google.com/rss/search?q=ceasefire%20talks%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:sanctions announced": {
+      "url": "https://news.google.com/rss/search?q=sanctions%20announced%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:warship OR naval drills": {
+      "url": "https://news.google.com/rss/search?q=warship%20OR%20naval%20drills%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:cyberattack": {
+      "url": "https://news.google.com/rss/search?q=cyberattack%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Gaza OR West Bank": {
+      "url": "https://news.google.com/rss/search?q=Gaza%20OR%20West%20Bank%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Ukraine Russia front": {
+      "url": "https://news.google.com/rss/search?q=Ukraine%20Russia%20front%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Sudan RSF": {
+      "url": "https://news.google.com/rss/search?q=Sudan%20RSF%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Sahel militants": {
+      "url": "https://news.google.com/rss/search?q=Sahel%20militants%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Red Sea Houthi": {
+      "url": "https://news.google.com/rss/search?q=Red%20Sea%20Houthi%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Taiwan Strait": {
+      "url": "https://news.google.com/rss/search?q=Taiwan%20Strait%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:South China Sea": {
+      "url": "https://news.google.com/rss/search?q=South%20China%20Sea%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:North Korea missile": {
+      "url": "https://news.google.com/rss/search?q=North%20Korea%20missile%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 503,
+      "error": null
+    },
+    "GN:Iran IAEA": {
+      "url": "https://news.google.com/rss/search?q=Iran%20IAEA%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Haiti gangs": {
+      "url": "https://news.google.com/rss/search?q=Haiti%20gangs%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 503,
+      "error": null
+    },
+    "GN:Myanmar junta": {
+      "url": "https://news.google.com/rss/search?q=Myanmar%20junta%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Congo M23": {
+      "url": "https://news.google.com/rss/search?q=Congo%20M23%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Somalia al-Shabaab": {
+      "url": "https://news.google.com/rss/search?q=Somalia%20al-Shabaab%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 503,
+      "error": null
+    },
+    "GN:Venezuela military": {
+      "url": "https://news.google.com/rss/search?q=Venezuela%20military%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Pakistan attack": {
+      "url": "https://news.google.com/rss/search?q=Pakistan%20attack%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Kashmir": {
+      "url": "https://news.google.com/rss/search?q=Kashmir%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Syria clashes": {
+      "url": "https://news.google.com/rss/search?q=Syria%20clashes%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Lebanon Hezbollah": {
+      "url": "https://news.google.com/rss/search?q=Lebanon%20Hezbollah%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Iraq militia": {
+      "url": "https://news.google.com/rss/search?q=Iraq%20militia%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Libya clashes": {
+      "url": "https://news.google.com/rss/search?q=Libya%20clashes%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Ethiopia conflict": {
+      "url": "https://news.google.com/rss/search?q=Ethiopia%20conflict%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    },
+    "GN:Nigeria gunmen": {
+      "url": "https://news.google.com/rss/search?q=Nigeria%20gunmen%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "etag": null,
+      "lastModified": null,
+      "http": 200,
+      "error": null
+    }
+  }
+}
